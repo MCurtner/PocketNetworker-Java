@@ -12,7 +12,6 @@ class BinaryToIntTest {
 
     @BeforeEach
     void setUp() {
-        binaryToInt = new BinaryToInt();
     }
 
     @AfterEach
@@ -22,9 +21,9 @@ class BinaryToIntTest {
 
     @Test
     void binaryToInt() {
-        assertEquals(192, binaryToInt.binaryToInt("11000000"));
-        assertEquals(1, binaryToInt.binaryToInt("00000001"));
-        assertEquals(10, binaryToInt.binaryToInt("00001010"));
-        assertEquals(168, binaryToInt.binaryToInt("10101000"));
+        assertEquals(192, BinaryToInt.binaryToInt("11000000"));
+        assertEquals(1, BinaryToInt.binaryToInt("00000001"));
+        assertEquals(10, BinaryToInt.binaryToInt("00001010"));
+        assertEquals(168, BinaryToInt.binaryToInt("10101000"));
     }
 }

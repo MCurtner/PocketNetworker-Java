@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11db8615-96ce-4665-97df-153496efefa2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="11db8615-96ce-4665-97df-153496efefa2" name="Changes" comment="Update of tests">
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/example/pocketnetworker/IntToBinaryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/example/pocketnetworker/BinaryToIntTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/example/pocketnetworker/BinaryToIntTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/example/pocketnetworker/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/example/pocketnetworker/ControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,36 +57,7 @@
       <recent name="com.example.pocketnetworker" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.pocketnetworker.Application" />
-      <module name="PocketNetworker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.pocketnetworker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryToIntTest.binaryToInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PocketNetworker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.pocketnetworker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.pocketnetworker" />
-      <option name="MAIN_CLASS_NAME" value="com.example.pocketnetworker.BinaryToIntTest" />
-      <option name="METHOD_NAME" value="binaryToInt" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.IntToBinaryTest.convertToBinary">
     <configuration name="ControllerTest.calculateIpStringFromBinaryString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PocketNetworker" />
       <extension name="coverage">
@@ -97,6 +69,22 @@
       <option name="PACKAGE_NAME" value="com.example.pocketnetworker" />
       <option name="MAIN_CLASS_NAME" value="com.example.pocketnetworker.ControllerTest" />
       <option name="METHOD_NAME" value="calculateIpStringFromBinaryString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllerTest.calculateNetworkClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PocketNetworker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.pocketnetworker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.pocketnetworker" />
+      <option name="MAIN_CLASS_NAME" value="com.example.pocketnetworker.ControllerTest" />
+      <option name="METHOD_NAME" value="calculateNetworkClass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,12 +122,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntToBinaryTest.convertToBinary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PocketNetworker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.pocketnetworker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.pocketnetworker" />
+      <option name="MAIN_CLASS_NAME" value="com.example.pocketnetworker.IntToBinaryTest" />
+      <option name="METHOD_NAME" value="convertToBinary" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.IntToBinaryTest.convertToBinary" />
+        <item itemvalue="JUnit.ControllerTest.calculateNetworkClass" />
         <item itemvalue="JUnit.ControllerTest.formatIntArrayToStringIpAddress" />
         <item itemvalue="JUnit.ControllerTest.calculateIpStringFromBinaryString" />
-        <item itemvalue="JUnit.BinaryToIntTest.binaryToInt" />
         <item itemvalue="JUnit.ControllerTest.formattedBinaryString" />
       </list>
     </recent_temporary>
@@ -153,7 +157,21 @@
       <option name="presentableId" value="Default" />
       <updated>1689864131843</updated>
     </task>
+    <task id="LOCAL-00001" summary="Readme update">
+      <option name="closed" value="true" />
+      <created>1690128508944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690128508944</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Readme update" />
+    <MESSAGE value="Update of tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update of tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
