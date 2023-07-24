@@ -76,4 +76,28 @@ class ControllerTest {
         assertEquals("192.168.1.1", controller.formatIntArrayToStringIpAddress(new int[]{192, 168, 1, 1}));
         assertEquals("127.0.0.1", controller.formatIntArrayToStringIpAddress(new int[]{127, 0, 0, 1}));
     }
+
+    @Test
+    void logicalANDing() {
+        assertEquals("11000000", controller.logicalANDing("11000000", "11111111"));
+        assertEquals("10101000", controller.logicalANDing("10101000", "11111111"));
+        assertEquals("00000000", controller.logicalANDing("00000000", "11111111"));
+        assertEquals("00000000", controller.logicalANDing("01010101", "10101010"));
+        assertEquals("00001111", controller.logicalANDing("00001111", "00001111"));
+    }
+
+    @Test
+    void logicalORing() {
+        assertEquals("11000000", controller.logicalORing("11000000", "00000000"));
+        assertEquals("10101000", controller.logicalORing("10101000", "00000000"));
+        assertEquals("00000101", controller.logicalORing("00000101", "00000000"));
+        assertEquals("00111111", controller.logicalORing("00110010", "00001111"));
+    }
+
+    @Test
+    void calculateMaxHosts() {
+        assertEquals(2048, controller.calculateMaxHosts("11111111.11111111.11111000.00000000"));
+        assertEquals(64, controller.calculateMaxHosts("11111111.11111111.11111111.11000000"));
+        assertEquals(1048576, controller.calculateMaxHosts("11111111.11110000.00000000.00000000"));
+    }
 }

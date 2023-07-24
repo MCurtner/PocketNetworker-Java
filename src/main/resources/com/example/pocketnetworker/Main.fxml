@@ -102,11 +102,12 @@
                         <Insets left="20.0" />
                      </HBox.margin>
                   </Label>
-                  <Label id="networkLbl" prefHeight="17.0" prefWidth="38.0" text="?" HBox.hgrow="ALWAYS">
+                  <Label id="networkLbl" fx:id="networkLbl" prefHeight="17.0" prefWidth="126.0" text="?" HBox.hgrow="ALWAYS">
                      <HBox.margin>
                         <Insets left="9.0" />
                      </HBox.margin>
                   </Label>
+                  <Label id="networkLbl" fx:id="networkBinaryLbl" prefHeight="17.0" prefWidth="443.0" text="?" />
                </children>
             </HBox>
             <HBox prefHeight="25.0" prefWidth="409.0">
@@ -116,11 +117,12 @@
                         <Insets left="20.0" />
                      </HBox.margin>
                   </Label>
-                  <Label id="broadcastLbl" prefHeight="17.0" prefWidth="38.0" text="?" HBox.hgrow="ALWAYS">
+                  <Label id="broadcastLbl" fx:id="broadcastLbl" prefHeight="17.0" prefWidth="120.0" text="?" HBox.hgrow="ALWAYS">
                      <HBox.margin>
                         <Insets left="9.0" />
                      </HBox.margin>
                   </Label>
+                  <Label id="broadcastLbl" fx:id="broadcastBinaryLbl" prefHeight="17.0" prefWidth="448.0" text="?" />
                </children>
             </HBox>
             <HBox prefHeight="14.0" prefWidth="396.0">
