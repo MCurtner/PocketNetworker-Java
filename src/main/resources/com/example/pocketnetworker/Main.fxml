@@ -27,7 +27,7 @@
                   <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0">
                      <children>
                         <Label prefHeight="17.0" prefWidth="66.0" text="Netmask:" />
-                        <TextField id="netmaskTextField" fx:id="netmaskTextField" prefHeight="25.0" />
+                        <TextField id="netmaskTextField" fx:id="netmaskTextField" prefHeight="25.0" text="25" />
                      </children>
                   </VBox>
                </children>
@@ -77,7 +77,7 @@
                         <Insets left="9.0" />
                      </HBox.margin>
                   </Label>
-                  <Label id="netmaskLbl" fx:id="netmaskBinaryLbl" prefHeight="17.0" prefWidth="453.0" text="?" />
+                  <Label id="netmaskLbl" fx:id="netmaskBinaryLbl" prefHeight="17.0" prefWidth="463.0" text="?" />
                </children>
             </HBox>
             <HBox prefHeight="25.0" prefWidth="409.0">
@@ -87,12 +87,12 @@
                         <Insets left="20.0" />
                      </HBox.margin>
                   </Label>
-                  <Label id="wildcardLbl" fx:id="wildcardLbl" prefHeight="17.0" prefWidth="127.0" text="?" HBox.hgrow="ALWAYS">
+                  <Label id="wildcardLbl" fx:id="wildcardLbl" prefHeight="17.0" prefWidth="130.0" text="?" HBox.hgrow="ALWAYS">
                      <HBox.margin>
                         <Insets left="9.0" />
                      </HBox.margin>
                   </Label>
-                  <Label id="wildcardBinaryLbl" fx:id="wildcardBinaryLbl" prefHeight="17.0" prefWidth="438.0" text="?" />
+                  <Label id="wildcardBinaryLbl" fx:id="wildcardBinaryLbl" prefHeight="17.0" prefWidth="463.0" text="?" />
                </children>
             </HBox>
             <HBox prefHeight="25.0" prefWidth="409.0">
@@ -102,12 +102,12 @@
                         <Insets left="20.0" />
                      </HBox.margin>
                   </Label>
-                  <Label id="networkLbl" fx:id="networkLbl" prefHeight="17.0" prefWidth="126.0" text="?" HBox.hgrow="ALWAYS">
+                  <Label id="networkLbl" fx:id="networkLbl" prefHeight="17.0" prefWidth="130.0" text="?" HBox.hgrow="ALWAYS">
                      <HBox.margin>
                         <Insets left="9.0" />
                      </HBox.margin>
                   </Label>
-                  <Label id="networkLbl" fx:id="networkBinaryLbl" prefHeight="17.0" prefWidth="443.0" text="?" />
+                  <Label id="networkLbl" fx:id="networkBinaryLbl" prefHeight="17.0" prefWidth="463.0" text="?" />
                </children>
             </HBox>
             <HBox prefHeight="25.0" prefWidth="409.0">
@@ -123,6 +123,20 @@
                      </HBox.margin>
                   </Label>
                   <Label id="broadcastLbl" fx:id="broadcastBinaryLbl" prefHeight="17.0" prefWidth="448.0" text="?" />
+               </children>
+            </HBox>
+            <HBox prefHeight="25.0" prefWidth="409.0">
+               <children>
+                  <Label contentDisplay="RIGHT" prefHeight="17.0" text="Hosts/Net" textAlignment="RIGHT" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label id="hostsPerNet" fx:id="hostsPerNet" prefHeight="17.0" prefWidth="120.0" text="?" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets left="9.0" />
+                     </HBox.margin>
+                  </Label>
                </children>
             </HBox>
             <HBox prefHeight="14.0" prefWidth="396.0">

@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11db8615-96ce-4665-97df-153496efefa2" name="Changes" comment="Update of tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pocketnetworker/NetCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pocketnetworker/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/pocketnetworker/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/pocketnetworker/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/pocketnetworker/Main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/com/example/pocketnetworker/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/example/pocketnetworker/ControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/example/pocketnetworker/ControllerTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +60,7 @@
       <recent name="com.example.pocketnetworker" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ControllerTest.calculateMaxHosts">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.pocketnetworker.Application" />
       <module name="PocketNetworker" />
@@ -71,7 +74,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NetCalcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PocketNetworker" />
       <extension name="coverage">
         <pattern>
@@ -80,13 +83,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.pocketnetworker" />
-      <option name="MAIN_CLASS_NAME" value="com.example.pocketnetworker.ControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.pocketnetworker.NetCalcTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControllerTest.calculateMaxHosts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NetCalcTest.calculateMaxHosts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PocketNetworker" />
       <extension name="coverage">
         <pattern>
@@ -95,14 +98,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.pocketnetworker" />
-      <option name="MAIN_CLASS_NAME" value="com.example.pocketnetworker.ControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.pocketnetworker.NetCalcTest" />
       <option name="METHOD_NAME" value="calculateMaxHosts" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControllerTest.logicalANDing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NetCalcTest.calculateNetworkClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PocketNetworker" />
       <extension name="coverage">
         <pattern>
@@ -111,14 +114,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.pocketnetworker" />
-      <option name="MAIN_CLASS_NAME" value="com.example.pocketnetworker.ControllerTest" />
-      <option name="METHOD_NAME" value="logicalANDing" />
+      <option name="MAIN_CLASS_NAME" value="com.example.pocketnetworker.NetCalcTest" />
+      <option name="METHOD_NAME" value="calculateNetworkClass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControllerTest.logicalORing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NetCalcTest.getIpAddressStr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PocketNetworker" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +130,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.pocketnetworker" />
-      <option name="MAIN_CLASS_NAME" value="com.example.pocketnetworker.ControllerTest" />
-      <option name="METHOD_NAME" value="logicalORing" />
+      <option name="MAIN_CLASS_NAME" value="com.example.pocketnetworker.NetCalcTest" />
+      <option name="METHOD_NAME" value="getIpAddressStr" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ControllerTest.calculateMaxHosts" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="JUnit.ControllerTest" />
-        <item itemvalue="JUnit.ControllerTest.logicalORing" />
-        <item itemvalue="JUnit.ControllerTest.logicalANDing" />
+        <item itemvalue="JUnit.NetCalcTest" />
+        <item itemvalue="JUnit.NetCalcTest.getIpAddressStr" />
+        <item itemvalue="JUnit.NetCalcTest.calculateMaxHosts" />
+        <item itemvalue="JUnit.NetCalcTest.calculateNetworkClass" />
       </list>
     </recent_temporary>
   </component>
